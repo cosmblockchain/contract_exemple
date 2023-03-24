@@ -1,0 +1,20 @@
+{
+  "extends": "solhint:default",
+  "rules": {
+    "compiler-fixed": "warn",
+    "avoid-suicide": "error",
+    "avoid-sha3": "warn",
+    "avoid-throw": "false",
+    "no-empty-blocks": "warn",
+    "no-unused-vars": "warn",
+    "payable-fallback": "warn",
+    "quotes": ["error", "double"],
+    "contract-name-camelcase": "warn",
+    "func-name-mixedcase": "warn",
+    "named-parameters-mapping": "off",
+    "private-vars-leading-underscore": ["warn", { "strict": false }],
+    "var-name-mixedcase": "warn",
+    "visibility-modifier-order": "warn"
+  },
+  "plugins": []
+}

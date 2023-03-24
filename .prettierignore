@@ -1,0 +1,14 @@
+
+# Ignore artifacts:
+build
+coverage
+nodes_modules
+package.json
+img
+artifacts
+cache
+.env
+.*
+README.md 
+
+
